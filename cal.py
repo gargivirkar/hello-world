@@ -1,11 +1,3 @@
-
----
-
-# ✅ **3. Streamlit Calculator App**
-
-Save as: `streamlit_calculator.py`
-
-```python
 import streamlit as st
 
 st.title("🧮 Simple Calculator")
@@ -30,6 +22,5 @@ if st.button("Calculate"):
             result = "Error: Cannot divide by zero!"
         else:
             result = num1 / num2
-    
-    st.success(f"Result: {result}")
 
+    st.success(f"Result: {result}")
